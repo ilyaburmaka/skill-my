@@ -64,7 +64,7 @@ const MobileHeader = styled.header`
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-   background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,7 +88,7 @@ const Header = styled.header`
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-   background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,6 +117,8 @@ const Image = styled.div`
   height: 450px;
   width: 100%;
   max-width: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: blue;
   background-position: center center;
   background-image: url(${({ image }) => image});
