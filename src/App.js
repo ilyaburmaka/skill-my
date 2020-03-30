@@ -350,7 +350,7 @@ const App = () => {
         <ImageWrapper>
           <Image image={"1.jpg"} />
           <Image image={"2.jpg"} />
-          <Image image={"1.jpg"} />
+          <Image image={"3.jpg"} />
         </ImageWrapper>
       </InnerWrapper>
     </Wrapper>
